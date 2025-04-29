@@ -83,8 +83,6 @@ Product reviews & ratings
 
 Email notifications for orders
 
-👤 Author
-Crafted with passion by the Bazaar Team.
 
 📃 License
 Licensed under the MIT License.
