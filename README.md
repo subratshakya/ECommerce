@@ -1,6 +1,6 @@
-# 🛍️ Bazaar - MERN E-commerce Website
+# 🛍️ ShopHub - MERN E-commerce Website
 
-**Bazaar** is a full-stack e-commerce web application built using the **MERN stack (MongoDB, Express.js, React, Node.js)** with modern UI/UX using Tailwind CSS and TypeScript. Users can browse products, manage a shopping cart, register/login, and go through a simulated checkout process. An admin dashboard allows for managing products and orders.
+**ShopHub** is a full-stack e-commerce web application built using the **MERN stack (MongoDB, Express.js, React, Node.js)** with modern UI/UX using Tailwind CSS and TypeScript. Users can browse products, manage a shopping cart, register/login, and go through a simulated checkout process. An admin dashboard allows for managing products and orders.
 
 ---
 
@@ -33,34 +33,6 @@
 - **Image Gallery**: Zoom + thumbnails in product detail view
 
 ---
-
-## 🗂️ File Structure
-
-```bash
-src/
-├── types/                 # TypeScript type definitions
-├── data/                  # Mock product data
-│   └── products.ts
-├── context/               # Global contexts for Auth and Cart
-│   ├── AuthContext.tsx
-│   └── CartContext.tsx
-├── components/            # Reusable UI and page components
-│   ├── ProductCard.tsx
-│   ├── Navbar.tsx
-│   ├── Footer.tsx
-│   ├── ProductList.tsx
-│   └── HeroSection.tsx
-├── pages/                 # Page components
-│   ├── HomePage.tsx
-│   ├── ProductsPage.tsx
-│   ├── ProductDetailPage.tsx
-│   ├── CartPage.tsx
-│   ├── CheckoutPage.tsx
-│   ├── AuthPages.tsx      # Login & Register
-│   └── AdminPages.tsx     # Admin dashboard, product/order mgmt
-├── App.tsx                # Root app component with routing
-├── index.html             # HTML template
-└── package.json           # Project dependencies and scripts
 🛠 Tech Stack
 Frontend: React + TypeScript + Tailwind CSS
 
@@ -124,12 +96,35 @@ Crafted with passion by the Bazaar Team.
 
 📃 License
 Licensed under the MIT License.
+## 🗂️ File Structure
 
-vbnet
-Copy
-Edit
+```bash
+src/
+├── types/                 # TypeScript type definitions
+├── data/                  # Mock product data
+│   └── products.ts
+├── context/               # Global contexts for Auth and Cart
+│   ├── AuthContext.tsx
+│   └── CartContext.tsx
+├── components/            # Reusable UI and page components
+│   ├── ProductCard.tsx
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   ├── ProductList.tsx
+│   └── HeroSection.tsx
+├── pages/                 # Page components
+│   ├── HomePage.tsx
+│   ├── ProductsPage.tsx
+│   ├── ProductDetailPage.tsx
+│   ├── CartPage.tsx
+│   ├── CheckoutPage.tsx
+│   ├── AuthPages.tsx      # Login & Register
+│   └── AdminPages.tsx     # Admin dashboard, product/order mgmt
+├── App.tsx                # Root app component with routing
+├── index.html             # HTML template
+└── package.json           # Project dependencies and scripts
 
-Would you like this to be split into client/server folders with a proper backend implementation, or should I keep it in this single-structure frontend-centric layout for now?
+
 
 
 
