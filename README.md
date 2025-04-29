@@ -56,14 +56,6 @@ MongoDB (local or Atlas)
 
 npm or yarn
 
-Installation
-bash
-Copy
-Edit
-# Clone the repo
-git clone https://github.com/yourusername/bazaar-mern.git
-cd bazaar-mern
-
 # Install dependencies
 npm install
 
